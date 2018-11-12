@@ -1,0 +1,10 @@
+build
+node_modules
+*.swp
+.idea/
+*.log
+.Rhistory
+.env
+.coverage
+.DS_Store
+.eslintcache
