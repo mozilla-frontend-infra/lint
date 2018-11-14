@@ -6,6 +6,10 @@
   </p>
 </p>
 
+<br>
+
+[![Build Status][travis-image]][travis-url]
+
 ## Requirements
 
 - Node.js `^8.10 || >=10`
@@ -40,3 +44,6 @@ _Example: Installing the `react-lint` middleware:_
 ```bash
 ❯ npm install --save-dev @mozilla-frontend-infra/react-lint
 ```
+
+[travis-image]: https://travis-ci.org/mozilla-frontend-infra/lint.svg?branch=master
+[travis-url]: https://travis-ci.com/mozilla-frontend-infra/lint

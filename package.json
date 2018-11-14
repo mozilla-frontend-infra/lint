@@ -9,7 +9,6 @@
   },
   "scripts": {
     "lint": "eslint --cache --format codeframe --ext js packages/*",
-    "test": "yarn lint",
     "verdaccio:release": "lerna publish --registry http://localhost:4873 --yes --no-verify-access --no-git-tag-version --no-push --exact"
   },
   "license": "MPL-2.0",
