@@ -1,0 +1,29 @@
+{
+  "name": "lint",
+  "private": true,
+  "author": "Hassan Ali <helfi92@gmail.com>",
+  "engines": {
+    "node": "^8.10 || >=10",
+    "npm": ">=5.4.0",
+    "yarn": ">=1.10.1"
+  },
+  "scripts": {
+    "lint": "eslint --cache --format codeframe --ext js packages/*",
+    "test": "yarn lint",
+    "verdaccio:release": "lerna publish --registry http://localhost:4873 --yes --no-verify-access --no-git-tag-version --no-push --exact"
+  },
+  "license": "MPL-2.0",
+  "repository": "mozilla-frontend-infra/lint",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "lerna": "^3.4.3",
+    "neutrino": "^9.0.0-beta.1",
+    "verdaccio": "^3.8.5"
+  }
+}
