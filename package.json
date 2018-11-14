@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint --cache --format codeframe --ext js packages/*",
-    "verdaccio:release": "lerna publish --yes --no-verify-access --no-git-tag-version --no-push --exact"
+    "verdaccio:release": "scripts/test-release.sh"
   },
   "license": "MPL-2.0",
   "repository": "mozilla-frontend-infra/lint",
