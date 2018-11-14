@@ -55,6 +55,8 @@ module.exports = (neutrino, options = {}) => {
             trailingComma: 'es5',
             bracketSpacing: true,
             jsxBracketSameLine: true,
+            tabWidth: 2,
+            semi: true,
           },
         ],
         'padding-line-between-statements': [

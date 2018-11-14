@@ -24,31 +24,12 @@ module.exports = (neutrino, options = {}) => {
           ],
           'jsx-a11y/click-events-have-key-events': 'off',
           'jsx-a11y/no-static-element-interactions': 'off',
-          // Disallow spaces for JSX attribute braces interior
-          // JSX braces are interpolation, not objects
-          'react/jsx-curly-spacing': ['error', 'never'],
-          // Disallow spaces around JSX attribute assignment equals
-          // (idiomatic HTML)
-          'react/jsx-equals-spacing': ['error', 'never'],
-          // Require JSX props to be on new lines when a component is multiline
-          // improves readability
-          'react/jsx-first-prop-new-line': ['error', 'multiline'],
           // Ensure JSX props are indented 2 spaces from opening tag
           'react/jsx-indent-props': ['error', 2],
-          // Validate JSX has key prop when in array or iterator
-          'react/jsx-key': 'error',
-          // Prevent comments from being inserted as text nodes
-          'react/jsx-no-comment-textnodes': 'error',
-          // Prevent usage of unsafe target="_blank"
-          // ensure anchors also have rel="noreferrer noopener"
-          'react/jsx-no-target-blank': 'error',
           // Ensure JSX components are PascalCase
           'react/jsx-pascal-case': 'error',
           // Require space before self-closing bracket in JSX
           'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'always' }],
-          // Ensure multiline JSX is wrapped in parentheses (idiomatic React)
-          // Must be coupled with no-extra-parens: off
-          'react/jsx-wrap-multilines': 'error',
           // Disable enforcement of React PropTypes
           'react/default-props-match-prop-types': 'off',
           'react/jsx-closing-bracket-location': 'off',
