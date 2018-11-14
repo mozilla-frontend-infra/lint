@@ -9,7 +9,7 @@
     "eslint",
     "airbnb"
   ],
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Hassan Ali <helfi92@gmail.com>",
   "engines": {
     "node": "^8.10 || >=10",
