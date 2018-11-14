@@ -12,5 +12,4 @@ rm -rf $HOME/.local/share/verdaccio/storage/@mozilla-frontend-infra/
 
 lerna publish --yes --no-verify-access --no-git-tag-version --no-push;
 
-
 npm config set registry https://registry.npmjs.org/;
