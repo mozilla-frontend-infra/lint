@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint --cache --format codeframe --ext js packages/*",
-    "verdaccio:release": "lerna publish --registry http://localhost:4873 --yes --no-verify-access --no-git-tag-version --no-push --exact"
+    "verdaccio:release": "lerna publish --yes --no-verify-access --no-git-tag-version --no-push --exact"
   },
   "license": "MPL-2.0",
   "repository": "mozilla-frontend-infra/lint",
@@ -21,5 +21,8 @@
     "lerna": "^3.4.3",
     "neutrino": "^9.0.0-beta.1",
     "verdaccio": "^3.8.5"
+  },
+  "dependencies": {
+    "npm": "^6.4.1"
   }
 }
