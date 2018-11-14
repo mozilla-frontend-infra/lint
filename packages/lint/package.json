@@ -1,6 +1,6 @@
 {
   "name": "@mozilla-frontend-infra/lint",
-  "description": "Neutrino middleware for linting projects",
+  "description": "Neutrino middleware for linting projects following the Airbnb styleguide with Mozilla additions.",
   "main": "index.js",
   "keywords": [
     "neutrino",

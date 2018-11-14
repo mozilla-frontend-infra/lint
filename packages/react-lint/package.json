@@ -1,6 +1,6 @@
 {
   "name": "@mozilla-frontend-infra/react-lint",
-  "description": "Neutrino middleware for linting React projects",
+  "description": "Neutrino middleware for linting React projects following the Airbnb styleguide with Mozilla additions.",
   "main": "index.js",
   "keywords": [
     "neutrino",
