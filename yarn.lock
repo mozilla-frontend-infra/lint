@@ -649,16 +649,6 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mozilla-frontend-infra/lint@^1.0.0":
-  version "1.0.0"
-  resolved "http://localhost:4873/@mozilla-frontend-infra%2flint/-/lint-1.0.0.tgz#d10d2a618539a0e01367c91d0a861390186b76b0"
-  integrity sha512-FEOL+T3r62Ta1I08eBK09IKpw7adhehMH6jNiqALxs+NJZl+P95NDMaMqBphbzA28gzwMjf0bQQTVY3FBwZWaQ==
-  dependencies:
-    deepmerge "^2.2.1"
-    eslint-config-prettier "^3.3.0"
-    eslint-plugin-prettier "^3.0.0"
-    prettier "^1.15.2"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
