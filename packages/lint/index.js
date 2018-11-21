@@ -21,7 +21,7 @@ module.exports = (neutrino, options = {}) => {
       baseConfig: {
         extends: ['eslint-config-prettier'],
       },
-      plugins: ['eslint-plugin-prettier'],
+      plugins: ['prettier'],
       rules: {
         'import/no-extraneous-dependencies': 'off',
         // Specify the maximum length of a line in your program
