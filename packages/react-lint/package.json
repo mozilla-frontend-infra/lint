@@ -25,6 +25,7 @@
     "@mozilla-frontend-infra/lint": "^1.2.0",
     "@neutrinojs/airbnb": "^9.0.0-beta.1",
     "deepmerge": "^2.2.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.16.4"
   }
 }
