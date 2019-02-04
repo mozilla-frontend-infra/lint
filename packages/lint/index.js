@@ -19,8 +19,10 @@ module.exports = (neutrino, options = {}) => {
     eslint: {
       emitWarning: process.env.NODE_ENV === 'development',
       baseConfig: {
-        extends: ['eslint-config-prettier'],
+        extends: [require.resolve('eslint-config-prettier')],
       },
+      // eslint-plugin-prettier is required to be installed by the consumer
+      // since eslint doesn't allow plugins to be specified via a path
       plugins: ['prettier'],
       rules: {
         'import/no-extraneous-dependencies': 'off',
