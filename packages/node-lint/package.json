@@ -9,7 +9,7 @@
     "eslint",
     "airbnb"
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Hassan Ali <helfi92@gmail.com>",
   "engines": {
     "node": "^8.10 || >=10",
@@ -22,7 +22,7 @@
   "license": "MPL-2.0",
   "repository": "https://github.com/mozilla-frontend-infra/lint/tree/master/packages/node-lint",
   "dependencies": {
-    "@mozilla-frontend-infra/lint": "^1.1.0",
+    "@mozilla-frontend-infra/lint": "^1.1.1",
     "@neutrinojs/airbnb-base": "^9.0.0-beta.1",
     "deepmerge": "^2.2.1"
   }
