@@ -36,13 +36,13 @@ _Example: Installing the `react-lint` middleware:_
 #### Yarn
 
 ```bash
-❯ yarn add --dev @mozilla-frontend-infra/react-lint
+❯ yarn add --dev @mozilla-frontend-infra/react-lint eslint-plugin-prettier
 ```
 
 #### npm
 
 ```bash
-❯ npm install --save-dev @mozilla-frontend-infra/react-lint
+❯ npm install --save-dev @mozilla-frontend-infra/react-lint eslint-plugin-prettier
 ```
 
 [travis-image]: https://travis-ci.org/mozilla-frontend-infra/lint.svg?branch=master
