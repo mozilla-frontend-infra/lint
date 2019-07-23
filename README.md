@@ -12,6 +12,8 @@
 
 ## Requirements
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mozilla-frontend-infra/lint.svg)](https://greenkeeper.io/)
+
 - Node.js `^8.10 || >=10`
 - Yarn or npm client
 - Neutrino v9
