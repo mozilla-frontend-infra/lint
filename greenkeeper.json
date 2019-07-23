@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/lint/package.json",
+        "packages/node-lint/package.json",
+        "packages/react-lint/package.json"
+      ]
+    }
+  }
+}
