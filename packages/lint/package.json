@@ -22,8 +22,8 @@
   "license": "MPL-2.0",
   "repository": "https://github.com/mozilla-frontend-infra/lint/tree/master/packages/lint",
   "dependencies": {
-    "deepmerge": "^2.2.1",
-    "eslint-config-prettier": "^3.3.0",
+    "deepmerge": "^4.0.0",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.4"
   }
