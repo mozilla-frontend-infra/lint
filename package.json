@@ -18,10 +18,10 @@
     "packages/*"
   ],
   "devDependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^6.1.0",
     "lerna": "^3.4.3",
     "neutrino": "9.0.0-beta.1",
     "npm": "^6.4.1",
-    "verdaccio": "^3.8.5"
+    "verdaccio": "^4.1.0"
   }
 }
