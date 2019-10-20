@@ -4,8 +4,8 @@
   "author": "Hassan Ali <helfi92@gmail.com>",
   "engines": {
     "node": "^8.10 || >=10",
-    "npm": ">=5.4.0",
-    "yarn": ">=1.10.1"
+    "npm": ">=6.10.0",
+    "yarn": ">=1.17.0"
   },
   "scripts": {
     "lint": "eslint --cache --format codeframe --ext js packages/* scripts",
@@ -19,9 +19,9 @@
   ],
   "devDependencies": {
     "eslint": "^5.9.0",
-    "lerna": "^3.4.3",
-    "neutrino": "9.0.0-beta.1",
-    "npm": "^6.4.1",
-    "verdaccio": "^3.8.5"
+    "lerna": "^3.18.1",
+    "neutrino": "9.0.0-rc.4",
+    "npm": "~6.4.1",
+    "verdaccio": "^4.3.3"
   }
 }
