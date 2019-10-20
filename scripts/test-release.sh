@@ -10,6 +10,6 @@ scripts/npm-adduser.js;
 # Delete its corresponding verdaccio storage so that we don't have to change the version in order to publish
 rm -rf $HOME/.local/share/verdaccio/storage/@mozilla-frontend-infra/
 
-lerna publish --yes --no-verify-access --no-git-tag-version --no-push;
+lerna publish --yes --no-verify-access --no-git-tag-version --no-push --registry http://localhost:4873/;
 
 npm config set registry https://registry.npmjs.org/;
