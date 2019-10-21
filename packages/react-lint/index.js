@@ -52,6 +52,8 @@ module.exports = (options = {}) => neutrino => {
             'react/no-unused-prop-types': 'off',
             // Doesn't always help with a lot of PureComponents:
             'react/require-default-props': 'off',
+            // Github doesn't syntax highlight <></> properly
+            'react/jsx-fragments': ['error', 'element']
           },
         },
       ],
