@@ -53,7 +53,7 @@ module.exports = (options = {}) => neutrino => {
             // Doesn't always help with a lot of PureComponents:
             'react/require-default-props': 'off',
             // Github doesn't syntax highlight <></> properly
-            'react/jsx-fragments': ['error', 'element']
+            'react/jsx-fragments': ['error', 'element'],
           },
         },
       ],
